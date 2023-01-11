@@ -1,0 +1,40 @@
+.container {
+    min-height: 100vw;
+}
+
+.title{
+    text-align: center;
+    margin-top: 74px;
+}
+
+.title>h1{
+    color: #5837D0;
+    font-size: 100px;
+    font-family: 'Itim', cursive;
+}
+
+.title>h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.liveDemo {
+    background-color: #343651;
+    opacity: 90%;
+    border-radius: 5px;
+    opacity: 0.9;
+    width: 572px;
+    height: 52rem;
+    /* height: 50vw; */
+    margin: 0 auto;
+    margin-top: 11px;
+}
+
+.demoBtn {
+    display: flex;
+    justify-content: flex-start;
+    width: 572px;
+    margin: 0 auto;
+    margin-top: 32px;
+}
