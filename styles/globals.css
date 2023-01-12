@@ -50,7 +50,7 @@
 
 body {
   color: var(--primary-text);
-  background: var(--primary-bg);
+  background: #1A1A1A;
   font-family: 'Inter', sans-serif;
 }
 

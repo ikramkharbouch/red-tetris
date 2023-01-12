@@ -1,5 +1,7 @@
 .container {
     min-height: 100vw;
+    display: flex;
+    justify-content: space-between;
 }
 
 .title{
@@ -37,4 +39,9 @@
     width: 572px;
     margin: 0 auto;
     margin-top: 32px;
+}
+
+.leftTetrominoes {
+    background-color: #fff;
+    
 }
