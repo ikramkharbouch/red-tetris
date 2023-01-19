@@ -1,7 +1,12 @@
 .cube {
-    width: 20px;
-    height: 20px;
+    width: 3rem;
+    height: 3rem;
     border: 1px solid #fff;
+    
+}
+
+.cubeTetro {
+    transform: rotate(-60.27deg);
 }
 
 .flexRow {

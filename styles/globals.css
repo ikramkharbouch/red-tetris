@@ -52,6 +52,7 @@ body {
   color: var(--primary-text);
   background: #1A1A1A;
   font-family: 'Inter', sans-serif;
+  max-height: 100%;
 }
 
 .btn {

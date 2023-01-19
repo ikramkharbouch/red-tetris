@@ -1,7 +1,8 @@
 .container {
-    min-height: 100vw;
+    max-height: 100%;
     display: flex;
     justify-content: space-between;
+    max-height: 100%;
 }
 
 .title{
@@ -26,22 +27,37 @@
     opacity: 90%;
     border-radius: 5px;
     opacity: 0.9;
-    width: 572px;
-    height: 52rem;
-    /* height: 50vw; */
+    height: 50rem;
+    width: 100%;
     margin: 0 auto;
     margin-top: 11px;
+}
+
+.demo {
+    width: 572px;
+    text-align: center;
+    width: 100%;
 }
 
 .demoBtn {
     display: flex;
     justify-content: flex-start;
-    width: 572px;
-    margin: 0 auto;
+    width: 100%;
     margin-top: 32px;
 }
 
 .leftTetrominoes {
-    background-color: #fff;
-    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.mediumDemo {
+    flex: 1;
+}
+
+.rightTetrominoes {
+    flex: 1;
 }

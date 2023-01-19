@@ -1,0 +1,33 @@
+.container {
+  height: calc(100vh - 80px);
+  display: flex;
+  padding: 16px 255px;
+  gap: 25px;
+}
+
+.game {
+  /* background: rgba(52, 54, 81, 0.9); */
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.tetris {
+    background: rgba(52, 54, 81, 0.9);
+    border-radius: 5px;
+    height: 100%;
+}
+
+.score {
+    width: 100%;
+    height: 46px;
+    background: #474E68;
+    border-radius: 5px;
+}
+
+.controls {
+  background: rgba(52, 54, 81, 0.9);
+  border-radius: 5px;
+  flex: 2;
+}

@@ -1,17 +1,15 @@
-import styles from '../styles/Header.module.css'
+import styles from "../styles/Header.module.css";
+import Link from "next/link";
 
 const Header = () => {
-    return(
+  return (
     <div className={styles.main}>
-        <h1 className={styles.logo}>Red Tetris</h1>
-        {/* <ul className={styles.list}>
-            <li>Home</li>
-            <li>Join</li>
-        </ul> */}
-        <button className="btn">
-            Start
-        </button>
-    </div>)
-}
+      <h1 className={styles.logo}>Red Tetris</h1>
+      <Link href="/lobby">
+        <button className="btn">Start</button>
+      </Link>
+    </div>
+  );
+};
 
 export default Header;

@@ -13,7 +13,7 @@ const Cube = ({ cubeColor }: any) => {
 // The shapes to make are
 const T_tetromino = () => {
     return (<>
-        <div>
+        <div className={styles.cubeTetro}>
             <div><Cube cubeColor="#00B2FF" /></div>
             <div className={styles.flexRow}>
                 <Cube cubeColor="#00B2FF" />
