@@ -14,10 +14,10 @@ const Board = () => {
 
     return (
         <div ref={eBoard} className={'t-board'} tabIndex={0} onKeyDown={ onKeyDown }>
-            <div>
+            {/* <div>
                 <span className="t-score-label">Score:</span>
                 <span className="t-score-label">{score.toLocaleString()}</span>
-            </div>
+            </div> */}
             {display.map( (row, index) => <Row row={row} key={index}/>)}
         </div>
     );

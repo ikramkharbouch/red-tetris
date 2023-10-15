@@ -95,9 +95,12 @@ body {
 
 .t-board {
   display: inline-block;
-  margin: 20px;
-  padding: 20px;
-  border: 1px solid grey;
+  height: 100%;
+  /* border: 1px solid grey; */
+
+  background-color: #343651;
+  opacity: 0.9;
+  border-radius: 8px;
 }
 
 .t-cell {
